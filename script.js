@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const form=document.querySelector('#pledge-form');if(form){form.addEventListener('submit',e=>{e.preventDefault();const choice=document.querySelector('#pledge-choice').value;document.querySelector('#pledge-message').textContent=choice?'Your pledge is set: '+choice+'. Small steps add up!':'Please choose an action first.';});}});
